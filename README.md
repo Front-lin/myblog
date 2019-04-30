@@ -78,4 +78,30 @@ categories: # 写文章分类
 ![](example/xxx.jpg)
 ```
 
+## 本地调试
 
+编写好文章好可以，在本地浏览器下查看运行效果
+
+```
+hexo s # 开启hexo server模式
+```
+
+浏览器输入http:localhost:4000，即可查看到博客效果
+
+## 发布文章
+
+根据发布形式可能需要更改根目录下_config.yml
+
+```
+deploy:
+  type: git
+  repository: # 填写你的username.github.io的仓库地址
+  branch: master
+```
+
+发布命令
+
+```
+hexo g # 编译静态文件
+hexo d # 发布到githubpage
+```
