@@ -86,7 +86,7 @@ categories: # 写文章分类
 hexo s # 开启hexo server模式
 ```
 
-浏览器输入http:localhost:4000，即可查看到博客效果
+浏览器输入[http:localhost:4000](http:localhost:4000)，即可查看到博客效果
 
 ## 发布文章
 
